@@ -1,0 +1,26 @@
+title: CaseProfile
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  caseDoc:
+    type: array
+    items:
+      $ref: ./CaseDoc.v1.yaml
+  case:
+    $ref: ./Case.v1.yaml
+  caseRecordings:
+    type: array
+    items:
+      $ref: ./CaseRecordings.v1.yaml
+  caseCalls:
+    type: array
+    items:
+      $ref: ''
+  createdAt:
+    type: string
+required:
+  - case
+  - createdAt

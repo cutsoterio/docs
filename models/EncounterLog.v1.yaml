@@ -1,0 +1,16 @@
+title: EncounterLog
+type: object
+x-tags:
+  - Data Model Mobile
+properties:
+  id:
+    type: string
+  Person:
+    $ref: ./Person.v1.yaml
+  Encounters:
+    $ref: ./BlePacket.v1.yaml
+  lastUpdated:
+    type: string
+required:
+  - Person
+  - lastUpdated

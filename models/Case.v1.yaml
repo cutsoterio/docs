@@ -1,0 +1,31 @@
+title: Case
+type: object
+x-tags:
+  - Dashboard Data Model
+description: ''
+properties:
+  id:
+    type: string
+  patient:
+    $ref: ./Patient.v1.yaml
+  test:
+    $ref: ./Test.v1.yaml
+  status:
+    type: string
+  contactLog:
+    $ref: ./EncounterLog.v1.yaml
+  quarantineState:
+    type: string
+  quarantineCentre:
+    $ref: ./QuarantineCentre.v1.yaml
+  dateConfirmed:
+    type: string
+  confirmedContacts:
+    $ref: ./Contact.v1.yaml
+required:
+  - id
+  - patient
+  - test
+  - status
+  - quarantineState
+  - dateConfirmed

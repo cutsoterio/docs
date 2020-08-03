@@ -1,0 +1,27 @@
+title: Reminder
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  label:
+    type: string
+  title:
+    type: string
+  text:
+    type: string
+  timestamp:
+    type: string
+  createdAt:
+    type: string
+  recievers:
+    type: array
+    items:
+      type: string
+required:
+  - label
+  - title
+  - text
+  - timestamp
+  - createdAt

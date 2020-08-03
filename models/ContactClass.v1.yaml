@@ -1,0 +1,17 @@
+title: ContactClass
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  label:
+    type: string
+  color:
+    type: string
+  riskLevel:
+    $ref: ./RiskLevel.v1.yaml
+required:
+  - label
+  - color
+  - riskLevel

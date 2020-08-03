@@ -1,0 +1,20 @@
+title: Test
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  dateOfTest:
+    type: string
+  testResult:
+    $ref: ./TestingResult.v1.yaml
+  testingCentre:
+    $ref: ./TestingCentre.v1.yaml
+  appointment:
+    $ref: ./Appointment.v1.yaml
+required:
+  - dateOfTest
+  - testResult
+  - testingCentre
+  - appointment

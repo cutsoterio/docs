@@ -1,0 +1,17 @@
+title: ChangeStream
+type: object
+x-tags:
+  - LogView
+properties:
+  id:
+    type: string
+  label:
+    type: string
+  createdAt:
+    type: string
+  action:
+    type: object
+required:
+  - label
+  - createdAt
+  - action

@@ -1,0 +1,23 @@
+title: RedzoneNotifications
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  label:
+    type: string
+  title:
+    type: string
+  text:
+    type: string
+  activityClass:
+    type: string
+  createdAt:
+    type: string
+required:
+  - label
+  - title
+  - text
+  - activityClass
+  - createdAt

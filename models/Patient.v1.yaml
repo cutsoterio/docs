@@ -1,0 +1,32 @@
+title: Patient
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  Person:
+    $ref: ./Person.v1.yaml
+  Test:
+    $ref: ./Test.v1.yaml
+  selfIsolationSuitable:
+    type: boolean
+  nationalID:
+    type: string
+  firstName:
+    type: string
+  lastName:
+    type: string
+  address:
+    type: string
+  createdAt:
+    type: string
+required:
+  - Person
+  - Test
+  - selfIsolationSuitable
+  - nationalID
+  - firstName
+  - lastName
+  - address
+  - createdAt

@@ -1,0 +1,14 @@
+title: ForceGraphPoint
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  person:
+    $ref: ./Person.v1.yaml
+  case:
+    $ref: ./Case.v1.yaml
+required:
+  - person
+  - case

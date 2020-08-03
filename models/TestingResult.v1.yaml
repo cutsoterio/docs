@@ -1,0 +1,18 @@
+title: TestingResult
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  test:
+    type: string
+  status:
+    type: number
+  publishedAt:
+    type: string
+required:
+  - id
+  - test
+  - status
+  - publishedAt

@@ -1,0 +1,33 @@
+title: User
+type: object
+x-tags:
+  - Dashboard User
+description: Dashboard user
+x-examples:
+  example-1: {}
+properties:
+  id:
+    type: string
+  username:
+    type: string
+  phone:
+    type: string
+  firstName:
+    type: string
+  lastName:
+    type: string
+  emailAddress:
+    type: string
+  createdAt:
+    type: string
+  active:
+    type: string
+required:
+  - id
+  - username
+  - phone
+  - firstName
+  - lastName
+  - emailAddress
+  - createdAt
+  - active

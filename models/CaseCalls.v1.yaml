@@ -1,0 +1,17 @@
+title: CaseCalls
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  label:
+    type: string
+  createdAt:
+    type: string
+  recording:
+    $ref: ./CaseRecordings.v1.yaml
+required:
+  - label
+  - createdAt
+  - recording

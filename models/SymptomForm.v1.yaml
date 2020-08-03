@@ -1,0 +1,13 @@
+title: SymptomForm
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  label:
+    type: string
+  symptoms:
+    type: object
+required:
+  - label

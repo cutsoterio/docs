@@ -1,0 +1,14 @@
+title: RiskLevel
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  label:
+    type: string
+  color:
+    type: string
+required:
+  - label
+  - color

@@ -1,0 +1,19 @@
+title: Appointment
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  person:
+    $ref: ./Person.v1.yaml
+  scheduledDate:
+    type: string
+  scheduledTime:
+    type: string
+  reason:
+    type: string
+  caseInInterest:
+    type: string
+  priority:
+    $ref: ./Priorities.v1.yaml

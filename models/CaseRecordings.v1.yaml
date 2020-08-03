@@ -1,0 +1,23 @@
+title: CaseRecordings
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  label:
+    type: string
+  case:
+    $ref: ./Case.v1.yaml
+  createdAt:
+    type: string
+  file:
+    type: string
+  contact:
+    $ref: ./Person.v1.yaml
+required:
+  - label
+  - case
+  - createdAt
+  - file
+  - contact

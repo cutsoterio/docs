@@ -1,0 +1,27 @@
+title: TestingCentre
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  name:
+    type: string
+  latitude:
+    type: string
+  address:
+    type: string
+  capacity:
+    type: string
+  maxDailyCapacity:
+    type: string
+  phone:
+    type: string
+required:
+  - id
+  - name
+  - latitude
+  - latitude
+  - address
+  - capacity
+  - maxDailyCapacity

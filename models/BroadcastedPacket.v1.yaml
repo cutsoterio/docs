@@ -1,0 +1,11 @@
+title: BroadcastedPackets
+type: object
+properties:
+  id:
+    type: string
+  person:
+    $ref: ./Person.v1.yaml
+  packets:
+    type: array
+    items:
+      $ref: ./BlePacket.v1.yaml

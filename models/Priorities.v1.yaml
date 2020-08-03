@@ -1,0 +1,17 @@
+title: Priorities
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  label:
+    type: string
+  priorityLevel:
+    type: string
+  color:
+    type: string
+required:
+  - label
+  - priorityLevel
+  - color

@@ -1,0 +1,14 @@
+title: Person
+type: object
+x-tags:
+  - Application User
+properties:
+  id:
+    type: string
+  phone:
+    type: string
+  createdAt:
+    type: string
+required:
+  - phone
+  - createdAt

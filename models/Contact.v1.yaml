@@ -1,0 +1,14 @@
+title: Contact
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  Patient:
+    $ref: ./Patient.v1.yaml
+  case:
+    $ref: ./Case.v1.yaml
+required:
+  - Patient
+  - case

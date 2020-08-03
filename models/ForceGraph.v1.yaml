@@ -1,0 +1,16 @@
+title: ForceGraph
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  label:
+    type: string
+  case:
+    $ref: ./Case.v1.yaml
+  graphPoints:
+    $ref: ./ForceGraphPoint.v1.yaml
+required:
+  - label
+  - case

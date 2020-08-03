@@ -1,0 +1,20 @@
+title: BlePacket
+type: object
+x-tags:
+  - Data Model Mobile
+properties:
+  id:
+    type: string
+  Identifier:
+    type: string
+  Timestamp:
+    type: string
+  tul:
+    type: number
+  tll:
+    type: number
+required:
+  - Identifier
+  - Timestamp
+  - tul
+  - tll

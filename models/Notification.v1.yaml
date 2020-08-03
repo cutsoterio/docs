@@ -1,0 +1,26 @@
+title: Notification
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  label:
+    type: string
+  priority:
+    $ref: ./Priorities.v1.yaml
+  title:
+    type: string
+  text:
+    type: string
+  createdAt:
+    type: string
+  notificationClass:
+    type: string
+required:
+  - label
+  - priority
+  - title
+  - text
+  - createdAt
+  - notificationClass

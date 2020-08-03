@@ -1,0 +1,29 @@
+title: Redzone
+type: object
+x-tags:
+  - Dashboard Data Model
+properties:
+  id:
+    type: string
+  name:
+    type: string
+  label:
+    type: string
+  latitude:
+    type: string
+  longitude:
+    type: string
+  areaCode:
+    type: string
+  district:
+    $ref: ''
+  createdAt:
+    type: string
+required:
+  - name
+  - label
+  - latitude
+  - longitude
+  - areaCode
+  - district
+  - createdAt
