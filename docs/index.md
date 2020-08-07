@@ -1,17 +1,18 @@
-# Welcome to MkDocs
+# Soterio: Contact Tracing
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+## Abstract
+To be updated
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
 ## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Documentation [https://github.com/cutsoterio/docs.git](https://github.com/cutsoterio/docs.git) - GitHub\
+Android Application [https://github.com/cutsoterio/mobile-android.git](https://github.com/cutsoterio/mobile-android.git) - GitHub \
+iOS Application [https://github.com/cutsoterio/mobile-ios.git](https://github.com/cutsoterio/mobile-ios.git) - GitHub \
+Backend Server [https://github.com/cutsoterio/backend.git](https://github.com/cutsoterio/backend.git) - GitHub \
+Web Dashboard ([https://github.com/cutsoterio/dashboard.git](https://github.com/cutsoterio/dashboard.git) - GitHub \
+EMR Integration [https://github.com/cutsoterio/emr-integration.git](https://github.com/cutsoterio/emr-integration.git) - GitHub \
+AI-Engine [https://github.com/cutsoterio/ai-engine.git](https://github.com/cutsoterio/ai-engine.git) - GitHub \
+Calibration [https://github.com/cutsoterio/calibration.git](https://github.com/cutsoterio/calibration.git) - GitHub
+
